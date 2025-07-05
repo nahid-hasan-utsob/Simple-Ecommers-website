@@ -269,6 +269,7 @@
         .header-main-img {
             justify-content: space-evenly;
             margin: 0px;
+            background-size: coverj;
         }
         .header-main-img img {
             max-width: 80%;
