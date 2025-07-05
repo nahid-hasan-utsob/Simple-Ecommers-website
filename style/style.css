@@ -1,0 +1,301 @@
+        * {
+        margin: 0;
+        padding: 0;
+        }
+
+        main {
+        max-width: 1440px;
+        margin: 0 auto;
+        }
+
+        /* font setup*/
+
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+        .poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        }
+
+        .poppins-extralight {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        }
+
+        .poppins-light {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        }
+
+        .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+
+        .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        }
+
+        .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        }
+
+        .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        }
+
+        .poppins-extrabold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        }
+
+        .poppins-black {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        }
+
+        .poppins-thin-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+        }
+
+        .poppins-extralight-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        }
+
+        .poppins-light-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        }
+
+        .poppins-regular-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        }
+
+        .poppins-medium-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        }
+
+        .poppins-semibold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+        }
+
+        .poppins-bold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        }
+
+        .poppins-extrabold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+        }
+
+        .poppins-black-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        }
+
+        /* font setup end hare */
+
+        /* shared styles */
+
+        .display-flex {
+        display: flex;
+        }
+
+        :root {
+        --primary-color: #3a3a3a;
+        --secondary-color: #e02c6d;
+        }
+
+        /* header styles */
+
+        .nav-items {
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        }
+
+        .nav-title {
+        font-size: 20px;
+        color: var(--primary-color);
+        }
+
+        .nav-items-list ul {
+        list-style: none;
+        gap: 30px;
+        align-items: center;
+        }
+
+        .nav-items-list ul li {
+        font-size: 16px;
+        font: bold;
+        }
+
+        .nav-items-list ul li {
+        list-style: none;
+        }
+
+        .nav-items-list ul li a {
+        font-size: 16px;
+        font: bold;
+        color: var(--primary-color);
+        text-decoration: none;
+        }
+
+        #search,
+        #cart {
+        font-size: 30px;
+        color: black;
+        padding: 10px;
+        }
+        /* header main image section */
+        .header-main-sec {
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+        }
+
+        .header-title {
+        font-size: 50px;
+        color: var(--primary-color);
+        margin-bottom: 25px;
+        }
+
+        .header-des {
+        font-size: 16px;
+        margin-bottom: 25px;
+        }
+
+        .btn-primary {
+        background-color: var(--secondary-color);
+        padding: 10px 30px;
+        font-size: 16px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        }
+        .fa-arrow-right {
+        padding-left: 10px;
+        }
+
+        .header-main-img {
+        justify-content: end;
+        align-items: center;
+
+        margin-right: 130px;
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../images/Circle\ design.svg);
+        }
+
+        /* sponsor main section */
+
+        .sponsor-main-sec {
+        justify-content: center;
+        align-items: center;
+        padding: 25px 40px;
+        max-width: 1140px;
+        margin: 0 auto;
+        margin-top: 60px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        border: 1px solid #3a3a3a44;
+        }
+
+        .sponsor-logos {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        }
+
+        /* responsive page setup */
+
+        @media screen and (max-width: 576px) {
+        main {
+            padding: 10px;
+        }
+        .nav-items-list {
+            display: none;
+        }
+        .nav-title {
+            font-size: 16px;
+        }
+
+        .nav-items {
+            justify-content: space-evenly;
+            flex-direction: column;
+            margin-bottom: 50px;
+        }
+        .header-main-sec {
+            justify-content: center;
+            flex-direction: column-reverse;
+            gap: 50px;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header-title {
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+        .header-main-img {
+            justify-content: space-evenly;
+            margin: 0px;
+        }
+        .header-main-img img {
+            max-width: 80%;
+            max-height: 80%;
+        }
+
+        .sponsor-logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .sponsor-main-sec {
+            height: 80px;
+            gap: 20px;
+            border: none;
+        }
+
+        .sponsor-logos {
+            gap: 10px;
+        }
+        .sponsor-items {
+            text-align: center;
+            padding: 10px;
+        }
+        .btn-primary {
+            padding: 20px 40px;
+            font-size: 18px;
+        }
+        }
