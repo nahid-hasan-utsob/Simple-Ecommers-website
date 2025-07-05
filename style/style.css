@@ -321,7 +321,7 @@ main {
     }
 
     .footer{
-        background-color: rgb(1, 1, 133);
+        background-color: #0A0826;
         padding: 50px;
          display: flex;
         flex-direction: column;
@@ -382,7 +382,7 @@ main {
   .header-main-img {
     justify-content: space-evenly;
     margin: 0px;
-    background-size: coverj;
+    background-size: cover;
   }
   .header-main-img img {
     max-width: 80%;
